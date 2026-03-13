@@ -23,7 +23,7 @@ const boardlnsert = async () => {
     // aysnc/await, fetch() 활용하기
     // const API_URL = "http://localhost:8081/api/board/register";
     
-    배포용
+    //배포용
     const API_URL = "/api/board/register";
 
     let res = await fetch(API_URL, {
